@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.p5Canvas {
+  display: block;
+  width: 100vh !important;
+  height: 100vh !important;
+}

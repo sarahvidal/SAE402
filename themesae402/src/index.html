@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col justify-center gap-12">
+    <header class="relative w-screen h-screen bg-header bg-cover">
+      <section class="flex flex-col gap-2 absolute top-[45%] left-32 w-[350px]">
+        <h1 class="text-3xl font-bold">Nom du jeu</h1>
+        <p class="text-justify">Description du jeu</p>
+      </section>
+      <ul class="flex items-center justify-between px-12 py-5 bg-slate-300">
+        <li>
+          <a href="#"><img src="" alt="logo-jeu" /></a>
+        </li>
+        <li class="flex gap-12 items-center">
+          <a class="lg:flex hidden" href="#">Histoire</a>
+          <a class="lg:flex hidden" href="#">Personnage</a>
+          <a class="lg:flex hidden" href="#">Objectifs</a>
+          <a class="lg:flex hidden" href="#">Extrait du jeu</a>
+          <a class="py-3 px-5 bg-darkgreen text-white text-xl rounded-full" href="#"
+            >Jouer</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <article class="flex flex-col gap-12 px-64">
+      <section class="flex flex-col gap-5 text-center">
+        <h1 class="font-bold text-2xl">Notre histoire</h1>
+        <p class="text-justify leading-2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          accumsan tempus molestie. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae; Suspendisse dapibus
+          sodales hendrerit. Nullam nulla lorem, molestie sit amet condimentum
+          vitae, finibus ut dui. Donec vel dapibus orci, a eleifend purus. Ut
+          placerat mauris a leo congue, at semper felis tristique. Phasellus
+          molestie lorem nulla, in rhoncus orci auctor interdum. Donec arcu
+          tortor, varius id gravida vel, hendrerit quis sapien. Maecenas
+          feugiat, magna in posuere sodales, sapien nisl lobortis lectus, in
+          porttitor dui mauris sit amet metus.
+        </p>
+      </section>
+
+      <section class="flex flex-col gap-5 justify-center text-center">
+        <h1 class="font-bold text-2xl">Personnages</h1>
+        <div class="flex gap-16 items-center">
+          <span class="w-[500px] h-[500px] bg-header bg-cover"></span>
+          <p>
+            Hello ! Hello ! Hello ! Hello ! Hello ! Hello ! Hello ! Hello !
+            Hello ! Hello ! Hello ! Hello ! Hello ! Hello ! Hello !
+          </p>
+        </div>
+      </section>
+
+      <section class="flex flex-col gap-5 text-center">
+        <h1 class="font-bold text-2xl">Objectifs</h1>
+        <ul class="flex justify-between">
+          <li class="flex flex-col gap-4 w-[326px]">
+            <span class="w-[326px] h-[326px] bg-header bg-cover"></span>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+          <li class="flex flex-col gap-4 w-[326px]">
+            <span class="w-[326px] h-[326px] bg-header bg-cover"></span>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+          <li class="flex flex-col gap-4 w-[326px]">
+            <span class="w-[326px] h-[326px] bg-header bg-cover"></span>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="flex flex-col gap-5 text-center">
+        <h1 class="font-bold text-2xl">Extrait du jeu</h1>
+        <video class="w-full h-full" controls>
+          <source src=”https://www.youtube.com/watch?v=zFiqZMTmolY”
+          type=video/ogg>
+        </video>
+      </section>
+    </article>
+
+    <footer class="flex justify-between p-16">
+      <section class="flex flex-col justify-between">
+        <h3 class="font-bold">A propos</h3>
+        <p class="w-[256px]">
+          Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+          Ipsum Lorem Ipsum Lorem Ipsum
+        </p>
+        <ul class="flex gap-4">
+          <li><img src="../assets/instagram.png" alt="instagram" /></li>
+          <li><img src="../assets/facebook.png" alt="facebook" /></li>
+          <li><img src="../assets/twitter.png" alt="twitter" /></li>
+          <li><img src="../assets/linkedin.png" alt="linkedin" /></li>
+        </ul>
+      </section>
+      <section class="flex flex-col justify-between gap-8">
+        <h3 class="font-bold">Liens</h3>
+        <ul class="flex flex-col gap-5">
+          <li><a href="#">Histoire</a></li>
+          <li><a href="#">Personnage</a></li>
+          <li><a href="#">Objectif</a></li>
+          <li><a href="#">Extrait du jeu</a></li>
+        </ul>
+      </section>
+      <section class="flex flex-col justify-between gap-8">
+        <h3 class="font-bold">Contactez-nous</h3>
+        <ul class="flex flex-col gap-5">
+          <li><a href="#">IUT du Limousin</a></li>
+          <li><a href="#">contact@objectif1million.fr</a></li>
+          <li><a href="#">+33 6 52 26 35 21</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
